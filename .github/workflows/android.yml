@@ -1,4 +1,4 @@
-name: Android CI
+    name: Android CI
 
 on:
   release:
@@ -7,7 +7,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
 
     steps:
       - uses: actions/checkout@v3
