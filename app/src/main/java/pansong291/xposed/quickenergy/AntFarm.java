@@ -107,7 +107,6 @@ public class AntFarm {
         bizKeyList.add("HIRE_LOW_ACTIVITY");
         bizKeyList.add("HEART_DONATION_ADVANCED_FOOD_V2");
         bizKeyList.add("YEB_PURCHASE");
-        bizKeyList.add("ONLINE_PAY");
         bizKeyList.add("DIANTAOHUANDUAN");
     }
 
@@ -1359,7 +1358,7 @@ public class AntFarm {
                     } else {
                         Log.recordLog(jo.getString("memo"), jo.toString());
                     }
-                    Thread.sleep(200);
+                    Thread.sleep(1000L);
                 }
             } else {
                 Log.recordLog(jo.getString("memo"), s);
